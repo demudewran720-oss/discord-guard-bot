@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/discord-guard-bot",
+  "version": "3.0.0",
+  "description": "Discord Guard V3 Bot with Component V2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --check index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": ["discord", "guard", "bot", "security"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
